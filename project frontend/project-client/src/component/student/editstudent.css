@@ -1,0 +1,114 @@
+/* General container style */
+.full-height {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Maintain the existing card styling */
+  .card-container {
+    max-width: 600px;
+    padding: 30px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Home container with gradient background */
+  .home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    padding: 20px;
+  }
+  
+  /* Title style */
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #6a11cb;
+  }
+  
+  /* Input group styling */
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-group .input-group-text {
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .input-group input {
+    border-radius: 8px;
+  }
+  
+  /* Description paragraph */
+  .description {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  /* Features section */
+  .features {
+    margin-top: 20px;
+  }
+  
+  .features h3 {
+    font-size: 1.5rem;
+    color: #2575fc;
+    margin-bottom: 10px;
+  }
+  
+  .features-list {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    margin: 0 auto;
+    display: inline-block;
+  }
+  
+  .features-list li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    color: #444;
+  }
+  
+  .features-list li strong {
+    color: #2575fc;
+  }
+  
+  /* Action buttons container */
+  .row.mb-5 {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px; /* Adds space between the buttons */
+  }
+  
+  .col-sm-2 {
+    flex: 1; /* Ensures that the buttons are properly spaced */
+  }
+  
+  .btn {
+    border-radius: 5px;
+    padding: 10px 20px;
+    width: 100%; /* Makes the buttons fill their container */
+  }
+  
+  .btn-outline-success {
+    border-color: #6a11cb;
+    color: #6a11cb;
+  }
+  
+  .btn-outline-warning {
+    border-color: #2575fc;
+    color: #2575fc;
+  }
+  

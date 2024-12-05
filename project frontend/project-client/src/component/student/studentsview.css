@@ -1,0 +1,98 @@
+/* Custom styles for the student table */
+.table th, .table td {
+    vertical-align: middle;
+  }
+  
+  /* Add hover effect to rows */
+  .table tbody tr:hover {
+    background-color: #f8f9fa;
+  }
+  
+  /* Style for the search input */
+  .search-bar {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .search-bar input {
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .search-bar button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .search-bar button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Styling for the alert messages (error or success) */
+  .alert {
+    margin: 20px 0;
+  }
+  
+  .alert-danger {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    color: #721c24;
+  }
+  
+  .alert-info {
+    background-color: #d1ecf1;
+    border-color: #bee5eb;
+    color: #0c5460;
+  }
+  
+  /* Loading message styles */
+  .loading-message {
+    text-align: center;
+    font-size: 18px;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  /* Action button styles */
+  .btn-info, .btn-warning, .btn-danger {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 15px;
+    border-radius: 5px;
+  }
+  
+  .btn-info {
+    background-color: #17a2b8;
+    color: white;
+  }
+  
+  .btn-info:hover {
+    background-color: #138496;
+  }
+  
+  .btn-warning {
+    background-color: #ffc107;
+    color: white;
+  }
+  
+  .btn-warning:hover {
+    background-color: #e0a800;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c82333;
+  }
+  

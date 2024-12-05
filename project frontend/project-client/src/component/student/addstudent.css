@@ -1,0 +1,50 @@
+/* Action buttons container */
+.row.mb-5 {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px !important; /* Adjusts spacing between the buttons */
+}
+
+.col-sm-2 {
+  flex: 1 !important; /* Ensures that the buttons are properly spaced */
+}
+
+.btn {
+  border-radius: 5px !important; /* Slightly rounded corners */
+  padding: 12px 25px !important; /* Larger padding for better clickability */
+  width: 100% !important; /* Makes the buttons fill their container */
+  font-size: 1.1rem !important; /* Slightly larger font size */
+  font-weight: bold !important; /* Emphasizes button text */
+  transition: all 0.3s ease !important; /* Smooth transition for hover effects */
+  border: 1px solid #dcdcdc !important; /* Light grey border for a minimal look */
+  color: #444 !important; /* Dark grey text for better contrast */
+  background-color: #f9f9f9 !important; /* Light grey background */
+}
+
+/* Button hover effect */
+.btn:hover {
+  background-color: #e0e0e0 !important; /* Slightly darker grey on hover */
+  color: #222 !important; /* Darker text color on hover */
+}
+
+/* Outline success button (minimal grey) */
+.btn-outline-success {
+  border-color: #a8a8a8 !important; /* Lighter grey for the border */
+  color: #a8a8a8 !important; /* Grey text */
+}
+
+.btn-outline-success:hover {
+  background-color: #d5d5d5 !important; /* Slightly darker grey on hover */
+  color: #444 !important; /* Dark grey text on hover */
+}
+
+/* Outline warning button (minimal grey) */
+.btn-outline-warning {
+  border-color: #a8a8a8 !important; /* Lighter grey for the border */
+  color: #a8a8a8 !important; /* Grey text */
+}
+
+.btn-outline-warning:hover {
+  background-color: #d5d5d5 !important; /* Slightly darker grey on hover */
+  color: #444 !important; /* Dark grey text on hover */
+}

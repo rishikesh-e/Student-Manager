@@ -1,0 +1,46 @@
+/* Ensure navbar is fixed at the top */
+.navbar {
+  position: fixed; /* Fixed positioning */
+  top: 0; /* Position at the top */
+  left: 0;
+  right: 0;
+  z-index: 1000; /* Stay above other content */
+  padding: 10px 20px; /* Add some padding to the navbar */
+}
+
+/* Navbar brand styling */
+.navbar-brand {
+  font-size: 1.5rem; /* Adjust font size */
+  font-weight: bold;
+  color: #ffffff; /* Change brand color */
+  margin-right: 50px; /* Add space between brand and links */
+}
+
+/* Ensure the page content does not overlap the navbar */
+body {
+  padding-top: 80px; /* Add enough padding so content doesn't hide behind navbar */
+}
+
+/* Spacing for navbar links */
+.navbar-nav .nav-item {
+  margin-left: 20px; /* Adds space between links */
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff; /* Link color */
+  font-size: 1.1rem; /* Adjust font size for links */
+  padding: 10px; /* Add padding around links */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #2575fc; /* Subtle hover color */
+}
+
+/* Toggler button */
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler-icon {
+  background-color: white; /* Make toggler icon visible */
+}

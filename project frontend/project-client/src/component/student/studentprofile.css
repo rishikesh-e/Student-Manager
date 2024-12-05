@@ -1,0 +1,107 @@
+/* General Styling */
+.shadow {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Container Styling */
+  .container {
+    padding: 50px 15px;
+  }
+  
+  /* Profile Card Styling */
+  .card {
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+  }
+  
+  .card-body {
+    padding: 25px;
+    background-color: #f9f9f9;
+  }
+  
+  .card-body img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  .card-body h5 {
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  /* Button Styling */
+  .btn-outline-primary,
+  .btn-outline-warning {
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-outline-primary {
+    border-color: #007bff;
+    color: #007bff;
+  }
+  
+  .btn-outline-primary:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .btn-outline-warning {
+    border-color: #ffc107;
+    color: #ffc107;
+  }
+  
+  .btn-outline-warning:hover {
+    background-color: #ffc107;
+    color: #fff;
+  }
+  
+  /* Profile Details Styling */
+  .card-body hr {
+    margin: 15px 0;
+  }
+  
+  .card-body .row h5 {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  .card-body .row p {
+    font-size: 1rem;
+    color: #777;
+  }
+  
+  /* Info Section Layout */
+  .col-lg-9 {
+    padding-left: 30px;
+  }
+  
+  .col-lg-3 {
+    padding-right: 30px;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .col-lg-9,
+    .col-lg-3 {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  
+    .card-body h5 {
+      font-size: 1.2rem;
+    }
+  
+    .card-body img {
+      width: 120px;
+      height: 120px;
+    }
+  }
+  
